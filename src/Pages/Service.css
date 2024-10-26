@@ -1,0 +1,68 @@
+.service-sec{
+    margin-top: 100px;
+
+}
+.service-sec h2{
+    text-align: center;
+    color: rgba(109, 145, 238, 1);
+    font-size: 40px;
+    font-weight: bold;
+    margin: 40px 0;
+} 
+.service-sec .ser-card .card{
+    border-radius: 25px;
+    width: 95%;
+    margin:0 auto
+}
+.service-sec .ser-card img{
+    border-radius: 25px 25px 0 0;
+    object-fit: cover;
+}
+.service-sec .card-body{
+    padding: 25px;
+}
+.service-sec .card-title{
+    color: rgba(50, 68, 115, 1);
+    font-weight: 600;
+}
+.service-sec .card-text{
+    color: rgba(50, 68, 115, 1);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.btnHelp {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.btnHelp button {
+    background-color: rgba(81, 128, 246, 1);
+    color: white;
+    font-size: 20
+    px;
+    font-weight: 500;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 30px;
+    width: 200px;
+    height: 60px;
+    transition: background-color 0.3s ease;
+}
+.btnHelp button:hover {
+    background-color: rgba(77, 109, 178, 1);
+}
+@media(max-width: 768px) {
+    .service-sec h2{
+        margin-top: 250px;
+    }
+
+
+}
+@media(max-width: 426px) {
+    .service-sec h2{
+        margin-top: 400px;
+    }
+
+
+}

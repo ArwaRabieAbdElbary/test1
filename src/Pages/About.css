@@ -1,0 +1,135 @@
+.about-sec{
+    background-image: url('../images/about.jfif');
+    background-position:  center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+ .about-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(109, 145, 238, 0.7);
+    color: #fff;
+}
+.about-content{
+    position: relative;
+
+}
+.about-sec .con1{
+    width: 50%;
+    margin-top: 80px;
+    position: absolute;
+    left: 20%;
+}
+.about-sec .con1 h2{
+    font-size: 40px;
+    font-weight: 900;
+}
+.about-sec .con1 p{
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 600;
+    margin-top: 30px;
+    width: 50%;
+}
+.about-sec .con1 img{
+    width: 100%;
+    max-width: 300px;
+    border-radius: 15px;
+}
+.about-sec .con1-btn{
+    padding: 220px;
+}
+.about-sec .con1 button{
+    background-color: var( --orange-color);
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    border: 1px solid var( --orange-color);
+    border-radius: 15px;
+    width: 200px;
+    height: 60px;
+    border-radius: 25px;
+}
+.about-sec .con1 button:hover{
+    background-color: #81340e;
+ }
+.about-sec .con2{
+    width: 50%;
+    background-color: rgba(109, 145, 238, 1);
+    height: 100vh;
+    clip-path: polygon(20% 0, 100% 0, 100% 100%, 0% 100%);
+    padding-top: 180px;
+    position: absolute;
+    right: 0;  
+}
+.about-sec .con2 h2{
+    
+    font-size: 40px;
+    text-align: right;
+    font-weight: 900;
+    padding-right: 200px;
+}
+.about-sec .con2 p{
+    text-align: right;
+    margin-top: 30px;
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 600;
+    width: 75%;
+    padding-left: 250px; 
+}
+@media(max-width:1024px){
+    .about-sec .con2 p{ 
+        width: 82%;
+        padding-left: 120px;
+
+    }
+    .about-sec .con1-btn {
+        padding: 45px;
+    }  
+}
+
+@media(max-width: 768px) {
+    .about-sec .con1, .about-sec .con2 {
+        width: 100%;
+        position: relative;
+        right: 0;
+        margin-top: 20px;
+    }
+    .about-sec .con1 {
+        order: 1;
+        left: 5%;
+    }
+    .about-sec .con2 {
+        order: 2;
+        clip-path: none;
+        height: auto;
+        padding-top: 30px;
+    }
+    .about-sec .con2 p { 
+        width: 95%;
+        padding-left: 35px;
+        text-align: left;
+    }
+    .about-sec .con2 h2 {
+        padding-right: 35px;
+    }
+}
+@media(max-width: 374px){
+    .about-sec .con1 img{
+        max-width: 200px;
+    }
+    .about-sec .con1-btn {
+        padding: 20px;
+    }  
+    .about-sec .con1 button{
+        width: 140px;
+        height: 40px;
+      
+    }
+
+}
